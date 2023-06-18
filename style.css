@@ -1,7 +1,11 @@
-.body{
-background-color: black;
-}
+
 
 .menu{
-    background-color: brown;
+    background-color: rgba(0, 0, 0, 0.284);
+}
+
+.image1{
+
+   width: 20%; 
+   height: 10%;
 }
