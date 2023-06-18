@@ -9,3 +9,8 @@
    width: 20%; 
    height: 10%;
 }
+.infosperso h1{
+display: flex;
+justify-content: center;
+flex-direction:row;
+ }
