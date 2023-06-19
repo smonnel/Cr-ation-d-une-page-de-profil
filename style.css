@@ -1,22 +1,52 @@
 
 
 .menu{
-    background-color: rgba(0, 0, 0, 0.284);
+background-color:#1f9cc296;
+position: relative;
 }
-
 .image1{
-
-   width: 20%; 
-   height: 10%;
+width: 10%; 
+height: 10%;
 }
 
 #infos{
 display: flex;
-flex-direction: column;
+justify-content: space-between;
+align-items: center;
+color: white;
+padding: 10px;
+border-bottom: 3px solid rgba(0, 0, 0, 0.494);}
+
+.infosperso h1{
+font-size: 22px;
+}
+
+.infosperso h2{
+font-size: 22px;
+}
+.bio{
+background-color:#1f9cc285; 
+vertical-align: text-bottom; 
+color: white;  
+position: relative;
+}
+.bio h1:hover{
+    color: black;;
+    border-bottom: 3px solid #1f9cc2; 
+}
+.bio p{
+    font-size: 28px;
+}
+.body{
+
+    width: 20%;
+    height: 20%;
+}
 
 
-
-
-
-
+.fond{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+position: absolute;
 }
