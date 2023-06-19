@@ -9,8 +9,14 @@
    width: 20%; 
    height: 10%;
 }
-.infosperso h1{
+
+#infos{
 display: flex;
-justify-content: center;
-flex-direction:row;
- }
+flex-direction: column;
+
+
+
+
+
+
+}
