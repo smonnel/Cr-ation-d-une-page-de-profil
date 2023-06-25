@@ -1,7 +1,7 @@
 
 
 .menu{
-background-color:#1f9cc296;
+
 position: relative;
 }
 .image1{
@@ -25,22 +25,28 @@ font-size: 22px;
 font-size: 22px;
 }
 .bio{
-background-color:#1f9cc285; 
+
 vertical-align: text-bottom; 
-color: white;  
+
 position: relative;
+padding:2rem;
+
 }
 .bio h1:hover{
     color: black;;
-    border-bottom: 3px solid #1f9cc2; 
+    border-bottom: 3px solid #1f9cc2;
+
 }
 .bio p{
-    font-size: 28px;
+    font-size: 18px;
+    
 }
-.body{
-
-    width: 20%;
-    height: 20%;
+body{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("IMAGE/bel-homme-qui-pointe-vers-cote.jpg");
+    color: black;  
+    background-repeat: no-repeat;
+   
+ 
 }
 
 
@@ -48,5 +54,5 @@ position: relative;
     height: 100%;
     width: 100%;
     background-position: center;
-position: absolute;
+    position: absolute;
 }
